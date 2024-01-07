@@ -11,6 +11,10 @@
 		324CC13F2A6C72B60028B8AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324CC13E2A6C72B60028B8AD /* ContentView.swift */; };
 		324CC1412A6C72B70028B8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324CC1402A6C72B70028B8AD /* Assets.xcassets */; };
 		324CC1442A6C72B70028B8AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324CC1432A6C72B70028B8AD /* Preview Assets.xcassets */; };
+		324CC14B2A6C74A40028B8AD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324CC14A2A6C74A40028B8AD /* Data.swift */; };
+		32FACB9D2A6C86CB00B44A34 /* CryptoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FACB9C2A6C86CB00B44A34 /* CryptoCell.swift */; };
+		32FACB9F2A6C8B7100B44A34 /* CryptoDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FACB9E2A6C8B7100B44A34 /* CryptoDetailScreen.swift */; };
+		32FACBA12A6D170500B44A34 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FACBA02A6D170500B44A34 /* UserDefaultsExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		324CC13E2A6C72B60028B8AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		324CC1402A6C72B70028B8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		324CC1432A6C72B70028B8AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		324CC14A2A6C74A40028B8AD /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = ../../Data.swift; sourceTree = "<group>"; };
+		32FACB9C2A6C86CB00B44A34 /* CryptoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCell.swift; sourceTree = "<group>"; };
+		32FACB9E2A6C8B7100B44A34 /* CryptoDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailScreen.swift; sourceTree = "<group>"; };
+		32FACBA02A6D170500B44A34 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				324CC13C2A6C72B60028B8AD /* CryptoApp.swift */,
 				324CC13E2A6C72B60028B8AD /* ContentView.swift */,
+				32FACB9C2A6C86CB00B44A34 /* CryptoCell.swift */,
+				32FACB9E2A6C8B7100B44A34 /* CryptoDetailScreen.swift */,
+				32FACBA02A6D170500B44A34 /* UserDefaultsExtension.swift */,
+				324CC14A2A6C74A40028B8AD /* Data.swift */,
 				324CC1402A6C72B70028B8AD /* Assets.xcassets */,
 				324CC1422A6C72B70028B8AD /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FACB9F2A6C8B7100B44A34 /* CryptoDetailScreen.swift in Sources */,
+				32FACB9D2A6C86CB00B44A34 /* CryptoCell.swift in Sources */,
 				324CC13F2A6C72B60028B8AD /* ContentView.swift in Sources */,
+				324CC14B2A6C74A40028B8AD /* Data.swift in Sources */,
+				32FACBA12A6D170500B44A34 /* UserDefaultsExtension.swift in Sources */,
 				324CC13D2A6C72B60028B8AD /* CryptoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
